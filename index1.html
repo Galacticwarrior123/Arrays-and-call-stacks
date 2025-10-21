@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Join and pop method</title>
+    </head>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <body>
+        <script>
+        var vegetables = ["Carrot", "Broccoli", "Asparagus", "Cauliflower"];
+        document.getElementById("demo").innerHTML = vegetables.join(" - ");
+        
+        document.getElementById("demo1").innerHTML = vegetables;
+
+        vegetables.pop();
+        document.getElementById("demo2").innerHTML = vegetables;
+        </script>
+    </body>
+</html>
